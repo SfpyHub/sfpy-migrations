@@ -1,0 +1,15 @@
+{
+  "abi": [],
+  "evm": {
+    "bytecode": {
+      "object": "60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122009f24f140fdeaaf175fe4f456ac60930a462a858efc85116cc9eb580db1c8f6c64736f6c63430008040033",
+      "sourceMap": "181:1578:2:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;181:1578:2;;;;;;;;;;;;;;;;;"
+    },
+    "deployedBytecode": {
+      "object": "73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122009f24f140fdeaaf175fe4f456ac60930a462a858efc85116cc9eb580db1c8f6c64736f6c63430008040033",
+      "sourceMap": "181:1578:2:-:0;;;;;;;;"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"@sfpy/libraries/contracts/libraries/TransferHelper.sol\":\"TransferHelper\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"@sfpy/libraries/contracts/libraries/TransferHelper.sol\":{\"keccak256\":\"0x8afb03bd18dba61a20a69f0794ed5ee2ca7124145682ced2a8b6119d50f00dfb\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://69949ac0a8419f162381aba45df646ce325c176162eb715adadb75648075dc68\",\"dweb:/ipfs/Qmabac4HoszsYJRe3ujk2Vs6nWZV9xzKMHEmSy1VFcdjSh\"]}},\"version\":1}",
+  "bytecode": "60566037600b82828239805160001a607314602a57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122009f24f140fdeaaf175fe4f456ac60930a462a858efc85116cc9eb580db1c8f6c64736f6c63430008040033"
+}

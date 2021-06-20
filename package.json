@@ -1,0 +1,25 @@
+{
+  "name": "sfpy-migrations",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "ethereum-mars": "^0.1.3",
+    "ethers": "^5.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3",
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "clean": "rimraf ./build/ && mkdir -p ./build/contracts",
+    "copy:core": "cp ../sfpy-contracts/build/* ./build/contracts",
+    "copy:periphery": "cp ../sfpy-periphery/build/* ./build/contracts",
+    "copy": "yarn copy:periphery && yarn copy:core && rm ./build/contracts/Combined-Json.json",
+    "deploy:ganache": "yarn ts-node src/ganache.ts -n http://localhost:8545 -p 0xb40fe497ec46279e6fd74c03905e07d60e580413d2b96fd2d17c913a5c3b7290",
+    "deploy:goerli": "yarn ts-node src/goerli.ts -n goerli",
+    "deploy:kovan": "yarn ts-node src/kovan.ts -n kovan",
+    "deploy:rinkeby": "yarn ts-node src/rinkeby.ts -n rinkeby",
+    "deploy:ropsten": "yarn ts-node src/ropsten.ts -n ropsten",
+    "artifacts": "yarn mars -i ./build/contracts"
+  }
+}

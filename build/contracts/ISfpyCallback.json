@@ -1,0 +1,44 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "afterPay",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "evm": {
+    "bytecode": {
+      "object": "",
+      "sourceMap": ""
+    },
+    "deployedBytecode": {
+      "object": "",
+      "sourceMap": ""
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"afterPay\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"afterPay(address,address,uint256,bytes)\":{\"details\":\"An interface that accepts a payment from a payee in order to execute any arbitrary code in a smart contract\",\"params\":{\"amount\":\"the amount of tokenAmount sent\",\"data\":\"any aribitrary data needed to execute the Flash App\",\"sender\":\"the address of the payee making the payment\",\"token\":\"the contract address of the token being used\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/interfaces/ISfpyCallback.sol\":\"ISfpyCallback\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/interfaces/ISfpyCallback.sol\":{\"keccak256\":\"0x0c11d5d13bf0f833c904ffd46fb875c6bf17c0e862ae35e88510bed28b4a9bd5\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://83f1b84cf35d14fdbeef2a225cd55f7d7b3c7a3043e88e4e6ebd234d421c41a8\",\"dweb:/ipfs/QmQrS28znqWm6ciHM7j3XBWdaVpoNF5QC6ErLYnDFEd8ty\"]}},\"version\":1}",
+  "bytecode": ""
+}

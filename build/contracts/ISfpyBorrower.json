@@ -1,0 +1,39 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "borrow",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "evm": {
+    "bytecode": {
+      "object": "",
+      "sourceMap": ""
+    },
+    "deployedBytecode": {
+      "object": "",
+      "sourceMap": ""
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"borrow\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"borrow(address,uint256,bytes)\":{\"details\":\"Any smart contract that implements this interface can borrowfunds from a pool to execute a flash loan\",\"params\":{\"amount\":\"the amount to borrow\",\"data\":\"any arbitrary data needed by the borrower during execution\",\"sender\":\"the address to transfer the tokens to\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/interfaces/ISfpyBorrower.sol\":\"ISfpyBorrower\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/interfaces/ISfpyBorrower.sol\":{\"keccak256\":\"0x89124cf8f050ea74823a005f2bda962ff6b9228ced3c79aa9cc583b505181095\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3b92ea2454cfeae2304991a670368b06bd4cbaad324de44d4e3e1570d0cd1490\",\"dweb:/ipfs/QmYRsRKwj9m3NE9NYXdvk286uxcAjwTDdtzU73t1EUB7fy\"]}},\"version\":1}",
+  "bytecode": ""
+}

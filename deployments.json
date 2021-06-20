@@ -1,0 +1,58 @@
+{
+  "kovan": {
+    "SfpyFactory": {
+      "txHash": "0x772de28397b72165d383c099526d07517862c0234c1c7e9f08989dd1a7e79835",
+      "address": "0x533f19e1382a9458B7B0D74413EcBdD52a04e623"
+    },
+    "SfpyRouter": {
+      "txHash": "0xa1db2cad9544e9fee0dee443a6cf1b53c19aa2d2ee7e83e16dc4cc3daa47ead7",
+      "address": "0x4BcEeBCE68093cd4E1B61c5911cbdFBd97eeB99E"
+    },
+    "SFPY": {
+      "txHash": "0xada39c89dda286053e6659f84499981597c72ea3ce41b279e9514321e54e673c",
+      "address": "0x4474b172d819D018b5fCAe4ce4Fe12D2d52f21eF"
+    }
+  },
+  "rinkeby": {
+    "SfpyFactory": {
+      "txHash": "0xf14e52c5f6434863e0f1b92ad2eead4e0395b337843e61bd2261295eab894612",
+      "address": "0x533f19e1382a9458B7B0D74413EcBdD52a04e623"
+    },
+    "SfpyRouter": {
+      "txHash": "0xc2491fa7c21cf5d9c9eab8133fa5529f62155705f0852d889a636ac9821f87c2",
+      "address": "0x4BcEeBCE68093cd4E1B61c5911cbdFBd97eeB99E"
+    },
+    "SFPY": {
+      "txHash": "0x9855008992bf78f7fe237f7b88a904f6941379b0360a5d1fdf314adf298aa1a7",
+      "address": "0x4474b172d819D018b5fCAe4ce4Fe12D2d52f21eF"
+    }
+  },
+  "ropsten": {
+    "SfpyFactory": {
+      "txHash": "0x67d118e4b4ac31dd8cc90577077614f522bcdf2741268f69639f88f6965d4a85",
+      "address": "0x533f19e1382a9458B7B0D74413EcBdD52a04e623"
+    },
+    "SfpyRouter": {
+      "txHash": "0xc8324f9d242f83cb173ff9614e38097f9a31b624319072608f31be6ec9b9e32b",
+      "address": "0x4BcEeBCE68093cd4E1B61c5911cbdFBd97eeB99E"
+    },
+    "SFPY": {
+      "txHash": "0xfb3c535a2a80837ddf142b8b47527599b8d8c75c42642c0f6c6feb74219592a9",
+      "address": "0x4474b172d819D018b5fCAe4ce4Fe12D2d52f21eF"
+    }
+  },
+  "goerli": {
+    "SfpyFactory": {
+      "txHash": "0x95fa19d7257e2933f1a75d484e5a466156d8671de9f0108ea3456549398a7b5d",
+      "address": "0x533f19e1382a9458B7B0D74413EcBdD52a04e623"
+    },
+    "SfpyRouter": {
+      "txHash": "0x602b077808d19fdb96ddcd1fab00c2365d5e2913eda2553132c176d2f8cd4b25",
+      "address": "0x4BcEeBCE68093cd4E1B61c5911cbdFBd97eeB99E"
+    },
+    "SFPY": {
+      "txHash": "0x9029b41d8e48bd7ac916f1d2d0e6187e753b898a7d0c8945225b0273b838631b",
+      "address": "0x4474b172d819D018b5fCAe4ce4Fe12D2d52f21eF"
+    }
+  }
+}
