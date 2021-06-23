@@ -20,6 +20,7 @@
     "deploy:kovan": "yarn ts-node src/kovan.ts -n kovan",
     "deploy:rinkeby": "yarn ts-node src/rinkeby.ts -n rinkeby",
     "deploy:ropsten": "yarn ts-node src/ropsten.ts -n ropsten",
+    "deploy:mainnet": "yarn ts-node src/mainnet.ts",
     "artifacts": "yarn mars -i ./build/contracts"
   }
 }
